@@ -42,7 +42,7 @@ GetAll method get's the current weather information for all the cities from the 
 ```
 POST api/WeatherInfo/GetMany
 ```
-This method can be used to get the weather inforamtion for selected list of cities. method expects a **.txt** file in the request body.
+This method can be used to get the weather information for selected list of cities. method expects a **.txt** file in the request body.
 
 Sample content of .txt file
 ```
