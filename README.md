@@ -26,7 +26,7 @@ The API uses OpenWeather provider to get the weather information.
 In the web.config file update the "openWeatherAPIKey"key with your OpenWeather subscription key.
 Know more about [OpenWeather API](https://openweathermap.org/api)
 ``` 
-  <add key="OpenWeatherAPIKey" value="YOUR_OPENWEATHER_API_KEY"/>
+ <add key="OpenWeatherAPIKey" value="YOUR_OPENWEATHER_API_KEY"/>
 ```
 
 ```
