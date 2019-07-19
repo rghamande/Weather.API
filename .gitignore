@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs
+/packages
+/Weather.API/bin
+/Weather.API/obj/Debug
+/Weather.APITests/bin/Debug
+/Weather.APITests/obj/Debug
