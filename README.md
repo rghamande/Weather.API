@@ -23,7 +23,8 @@ Current repository is built using Visual Studio 2019 (DotNet Framework 4.7.x).
 The installation is pretty simple. Just download/clone the latest repository using visual studio.
 The API uses OpenWeather provider to get the weather information.
 
-In the web.config file update the "openWeatherAPIKey"key with your OpenWeather subscription key
+In the web.config file update the "openWeatherAPIKey"key with your OpenWeather subscription key.
+Know more about [OpenWeather API](https://openweathermap.org/api)
 ``` 
   <add key="OpenWeatherAPIKey" value="YOUR_OPENWEATHER_API_KEY"/>
 ```
@@ -62,7 +63,7 @@ The response/Weatherinfo is saved in the "WeatherInfo" folder categories by city
 The Output path is configurable and can be modified using "APIResponsePath" key in the web.config. 
 
 ## Enhancements
-* Implementing a mechanism to store responses on the cloud storage such as Microsoft Azure, AWS etc.
+* Implementing mechanism to store responses over the cloud storage such as Microsoft Azure, AWS etc.
 * Implementation for other weather forcast providers.
 * Enabling authentication for the API.
 
