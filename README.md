@@ -23,7 +23,7 @@ Current repository is built using Visual Studio 2019 (DotNet Framework 4.7.x).
 The installation is pretty simple. Just download/clone the latest repository using visual studio.
 The API uses OpenWeather provider to get the weather information.
 
-In the web.config file update the "openWeatherAPIKey"key with your OpenWeather subscription key.
+In the web.config file update the "openWeatherAPIKey" key with your OpenWeather subscription key.
 Know more about [OpenWeather API](https://openweathermap.org/api)
 ``` 
  <add key="OpenWeatherAPIKey" value="YOUR_OPENWEATHER_API_KEY"/>
